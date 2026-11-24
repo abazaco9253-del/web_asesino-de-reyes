@@ -1,0 +1,63 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Contacto</h1>
+        <p>Comparte tu opinión sobre los libros</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="informacion.html">Los libros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Formulario de contacto</h2>
+
+            <form action="#" method="get">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="libro">¿Cuál es tu libro favorito?</label>
+
+                <select id="libro" name="libro">
+                    <option>El nombre del viento</option>
+                    <option>El temor de un hombre sabio</option>
+                    <option>Las puertas de piedra</option>
+                </select>
+
+                <label for="opinion">Tu opinión:</label>
+                <textarea id="opinion" name="opinion" rows="5" required></textarea>
+
+                <label class="aceptacion">
+                    <input type="checkbox" name="acepto" required>
+                    Acepto las condiciones del formulario.
+                </label>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+            <p class="aviso">Formulario de demostración para el trabajo de clase.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Trabajo de HTML y CSS - ASIR1</p>
+    </footer>
+
+</body>
+</html>
